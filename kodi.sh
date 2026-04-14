@@ -1,1 +1,3 @@
-sudo pacman -Syy kodi kodi-* pvr*
+#!/bin/bash
+sudo pacman -S --noconfirm kodi kodi-addon-inputstream-adaptive
+rm -r kodi.sh
