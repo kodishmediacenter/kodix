@@ -30,3 +30,5 @@ fi
 
 echo "Reinicie o terminal ou rode:"
 echo "source $ARQUIVO"
+
+rm -r nyaa.sh
