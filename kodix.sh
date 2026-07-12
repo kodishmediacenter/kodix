@@ -6,9 +6,10 @@ kodix() {
         echo "kodix nome"
         return 1
     fi
-    wget https://raw.githubusercontent.com/kodishmediacenter/kodix/refs/heads/main/$1.sh 
+    wget https://raw.githubusercontent.com/kodishmediacenter/kodix/refs/heads/main/$1.sh   
     clear	
     sh $1.sh	
+    rm -r $1.sh
 }
 '
 
