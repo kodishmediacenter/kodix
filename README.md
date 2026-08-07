@@ -1,4 +1,4 @@
-# kodix
+# Kodix
 
 
 # Instalar via Terminal 
