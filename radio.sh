@@ -5,4 +5,4 @@ wget https://raw.githubusercontent.com/kodishmediacenter/appskodish/refs/heads/m
 pip install python-vlc --break-system-packages
 wget https://raw.githubusercontent.com/kodishmediacenter/appskodish/main/radio/estacoes_radio.m3u
 
-echo "alias radio='python /kodish/scripts/radio/radio.py'" >> /home/kodish/.bashrc
+echo "alias radio='cd /kodish/scripts/radio/ && python radio.py'" >> /home/kodish/.bashrc
