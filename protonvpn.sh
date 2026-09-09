@@ -1,0 +1,1 @@
+sudo pacman -Sy proton-vpn-gtk-app
