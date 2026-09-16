@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu 
+pacman -Sy
 flatpak update -y
 
 rm -r update.sh
